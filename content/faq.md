@@ -16,7 +16,7 @@ Mi primera distribución de GNU/Linux fue *[Slackware](http://www.slackware.com/
 #### Redes de telecomunicación
 Viene de familia. Y además me he tenido que comer una carrera relacionada con ello.
 #### Arquitecturas en la nube
-*AWS*, *Google Cloud*, *Azure*... Empresas que van a convertir el mundo en una [distopía Cyberpunk](https://es.wikipedia.org/wiki/Ciberpunk). Pero reconócelo, la nube mola y ni tú ni yo tenemos pasta ni espacio en casa para el ese *DataCenter* de nuestros sueños.
+*AWS*, *Google Cloud*, *Azure*... Empresas que van a convertir el mundo en una [distopía Cyberpunk](https://es.wikipedia.org/wiki/Ciberpunk). Pero reconócelo, la nube mola y ni tú ni yo tenemos pasta ni espacio en casa para ese *DataCenter* de nuestros sueños.
 
 # II. Sobre el blog
 Es un experimento creado hace un año y poco, y un intento de separar en otro blog la temática técnica del resto de paridas que escribo (Accesibles *[aquí](https://blog.diegomunozbeltran.com)*)
