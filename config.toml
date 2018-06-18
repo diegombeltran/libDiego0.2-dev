@@ -14,10 +14,11 @@ theme = "hydeD"
     author = "Diego M. Beltrán"
     title = "libDiego0.2-dev"
     description = "DevOps, Linux, AWS"
-    authorimage = "/img/hugo.png"
+    authorimage = "/images/diegombeltran.jpg"
     dateformat = "2 Jan 2006"
     highlightjs = true
-    # highlightjsstyle = "github"
+    highlightjsstyle = "github"
+	themeColor = "theme-base-0g"
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id"
     # layoutReverse = true
