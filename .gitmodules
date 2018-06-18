@@ -1,0 +1,3 @@
+[submodule "themes/hydeD"]
+	path = themes/hydeD
+	url = git@gitlab.com:diegombeltran/hydeD.git
