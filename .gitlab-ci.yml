@@ -1,0 +1,21 @@
+image: diegombeltran/docker-hugo:latest
+stages:
+  - build
+  - deploy
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+build:
+  stage: build
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+
+deploy:
+  stage: deploy
+  script:
+  - aws s3 sync ./public/ s3://$AWS_S3_BUCKET/ --acl public-read --delete
+  - aws cloudfront create-invalidation --distribution-id $AWS_DIST_ID  --paths "/*"
+  only:
+  - master
