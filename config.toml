@@ -1,5 +1,6 @@
 ## Basic Configuration
 baseurl = "https://dev.diegomunozbeltran.com/"
+title = "libDiego0.2-dev"
 languageCode = "es-ES"
 
 theme = "hydeD"
@@ -12,13 +13,12 @@ theme = "hydeD"
 ## Site Settings
 [params]
     author = "Diego M. Beltrán"
-    title = "libDiego0.2-dev"
     description = "DevOps, Linux, AWS"
     authorimage = "/images/diegombeltran.jpg"
     dateformat = "2 Jan 2006"
     highlightjs = true
     highlightjsstyle = "github"
-	themeColor = "theme-base-0g"
+    themeColor = "theme-base-0g"
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id"
     # layoutReverse = true
