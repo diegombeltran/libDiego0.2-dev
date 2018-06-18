@@ -1,7 +1,9 @@
 ---
 comments: true
-date: "2017-04-13T00:00:00Z"
-title: Wiki personal con Gollum
+date: "2017-04-13T10:00:00Z"
+lastmod: "2018-06-18T10:00:00Z"
+tags: ["gollum", "wiki", "ruby"]
+title: "Wiki personal con Gollum"
 ---
 
 #### Contenido

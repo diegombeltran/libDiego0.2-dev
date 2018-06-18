@@ -1,7 +1,7 @@
 ---
 comments: true
-date: "2010-06-04T00:00:00Z"
-title: Nautilus y directorios network:///
+date: "2010-06-04T10:00:00Z"
+title: "Nautilus y directorios network:///"
 ---
 
 Queriendo acceder a mis recursos compartidos desde mi portátil con

@@ -1,6 +1,6 @@
 ---
 comments: true
-date: "2015-12-31T00:00:00Z"
+date: "2015-12-31T10:00:00Z"
 title: Ficción Interactiva en Android
 ---
 
