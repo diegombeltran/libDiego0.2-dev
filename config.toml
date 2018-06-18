@@ -13,7 +13,7 @@ theme = "hydeD"
 [params]
     author = "Diego M. Beltrán"
     title = "libDiego0.2-dev"
-    # description = "..."
+    description = "DevOps, Linux, AWS"
     authorimage = "/img/hugo.png"
     dateformat = "2 Jan 2006"
     highlightjs = true

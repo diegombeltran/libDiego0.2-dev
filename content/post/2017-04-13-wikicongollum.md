@@ -90,5 +90,4 @@ Y con esto está todo. Como curiosidad, éste ha sido el primer contenido de mi 
 
 ![gollum][gollum]
 
-
-[gollum]: http://photos.auctionanything.com/x/9186/lotr227a.jpg "Gollum"
+[/images/gollum.jpg]
