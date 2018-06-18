@@ -88,6 +88,4 @@ Recordemos hacer `~$ git pull` en otras máquinas antes de proceder a editar.
 
 Y con esto está todo. Como curiosidad, éste ha sido el primer contenido de mi nuevo cuaderno de bitácora.
 
-![gollum][gollum]
-
-[/images/gollum.jpg]
+![Gollum](/images/gollum.jpg)
