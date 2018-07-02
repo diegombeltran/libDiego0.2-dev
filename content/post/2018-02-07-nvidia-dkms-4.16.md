@@ -50,7 +50,9 @@ Pero aqui vino el problema:
 nvidia: Unknown symbol swiotlb_map_sg_attrs (err 0)
 ```
 
-Resulta que ya se reportó un [bug](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=895429) similar con este kernel, aunque cuando todavía era considerado experimental. En mi caso no está solucionado, y mi única forma ágil de arreglarlo y ponerme a trabajar, ha sido instalando el kernel 4.17 (Considerado _Release Candidate_, aunque suficientemente estable para mí uso cotidiano):
+Resulta que ya se reportó un [bug](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=895429) similar con este kernel, aunque cuando todavía era considerado experimental.
+
+En mi caso no está solucionado, y mi forma ágil de arreglarlo y ponerme a trabajar, ha sido instalando el kernel 4.17 desde la rama experimental (Considerado _Release Candidate_, aunque suficientemente estable para mí uso cotidiano):
 
 ```bash
 ~$ aptitude install linux-image-4.17.0-rc7-amd64 linux-headers-4.17.0-rc7-amd64
@@ -63,8 +65,10 @@ Tras instalar kernel y cabeceras:
 ```
 Tras esto, un reinicio, cargar con el kernel 4.17 desde GRUB, y a funcionar.
 
-### ¿Y si quiero seguir usando el kernel 4.16 con este driver?
-Considera descargar la siguiente versión del driver desde la rama _Sid_, aunque tendrás un [Frankendebian](https://wiki.debian.org/es/DontBreakDebian#No_haga_un_FrankenDebian).
+### ¿Y si quiero seguir usando el kernel 4.16?
+Considera descargar la siguiente versión del driver desde la rama _Sid_. Fue lo primero que pensé en hacer, pero tenía ganas de probar el nuevo kernel.
+
+En ambos casos tendrás un [Frankendebian](https://wiki.debian.org/es/DontBreakDebian#No_haga_un_FrankenDebian).
 
 ### Más información:
 * [384.130 and 390.48 - Still Broken with Kernel 4.16..](https://devtalk.nvidia.com/default/topic/1031672/linux/384-130-and-390-48-still-broken-with-kernel-4-16-/)
