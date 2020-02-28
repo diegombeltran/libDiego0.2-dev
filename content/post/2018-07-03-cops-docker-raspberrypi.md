@@ -4,14 +4,11 @@ date: "2018-07-03T15:12:00Z"
 title: "COPS en Raspberry Pi con Docker"
 ---
 
-Hace poco participé en la grabación de un documental que será emitido en varias cadenas latinoamericanas. En dicho documental hablaban del nuevo y temido [Síndrome de Diógenes Digital](https://www.xataka.com/fotografia-y-video/diogenes-digitales-para-que-tantas-sacamos-fotos-y-videos-cuando-dificilmente-las-revisitamos), en el que la gente acumula contenido en forma de ceros y unos de forma
-indiscriminada, muchas veces sin saber muy bien por qué, o con qué fin.
-
 En mi caso, aparte de una apabullante colección de videojuegos en Steam, una de mis lindezas es la colección de eBooks, o libros en formato digital.
 
 ## La necesidad
 
-Leo gran cantidad de ebooks en formato _EPUB_, _MOBI_, y en el caso de libros técnicos o con más peso en el tema visual, PDF. Todos ellos los centralizo y gestiono mediante [Calibre](https://calibre-ebook.com/) (software libre que no se puede recomendar lo suficiente).
+Leo gran cantidad de ebooks en formato _EPUB_, _MOBI_, y en el caso de libros técnicos o con más peso en el tema visual, _PDF_. Todos ellos los centralizo y gestiono mediante [Calibre](https://calibre-ebook.com/) (software libre que no se puede recomendar lo suficiente).
 
 Con Calibre, los libros se pueden categorizar, etiquetar, catalogar, ordenar, editar, convertir, y por supuesto leer. Otra de las funciones que me encantan es el servidor de contenidos embebido, que permite acceder desde un dispositivo compatible al catálogo entero. De esta manera
 puedes estar cómodamente sentado en el sofá de tu casa, y no andar conectando el Kindle por USB para descargar los libros, o abriendo el propio Calibre para enviarlos.
@@ -67,7 +64,7 @@ Como sistema operativo he usado el oficial Raspbian. pero me quedo con HypriotOS
 
 Como root:
 ```bash
-~$ dd bs=4M if=20XX-XX-XX-raspbian-stretch.img.img of=/dev/sdX status=progress conv=fsync
+~$ dd bs=4M if=20XX-XX-XX-raspbian-stretch.img of=/dev/sdX status=progress conv=fsync
 ```
 
 Y ya tendríamos la imagen cargada en la microSD.
@@ -79,7 +76,7 @@ Para la red:
 ```bash
 ~$ vim wpa_supplicant.conf
 ```
-y dejamos el fichero así:
+dejamos el fichero así:
 ```
 country=ES
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -199,9 +196,9 @@ Primero descargar e instalar Docker, que se ha oficializado y es así de sencill
 ~$ sudo curl -sSL https://get.docker.com/ | sh
 ```
 
-Y una vez finalizado, meter al usuario no sin privilegios en el grupo "docker", para no andar con _sudo_ todo el rato.
+Y una vez finalizado, meter al usuario sin privilegios en el grupo "docker", para no andar con _sudo_ todo el rato.
 
-A mí me gusta cargarme dicho usuario y crearme otro con el mismo UID/GUID, pero por no irme por las ramas:
+A mí me gusta cargarme dicho usuario y crearme otro con el mismo UID/GID, pero por no irme por las ramas:
 ```bash
 ~$ sudo usermod -aG docker pi
 ```
