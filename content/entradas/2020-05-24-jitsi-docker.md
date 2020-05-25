@@ -109,7 +109,9 @@ Voy a ser el propietario del servicio y único moderador, por lo que hago uso de
 La forma más sencilla de dar de alta a esta figura moderadora es ejecutar esta línea una vez que el contenedor de _prosody_ esté arrancado:
 
 ```shell
-$ export USER=tuUsuario PASSWORD=tuPass
+$ export HISTCONTROL=ignorespace ## No añadir comandos al historial de la shell si llevan un espacio en blanco.
+
+$  export USER=tuUsuario PASSWORD=tuPass ## Nótese el espacio en blanco.
 
 $ docker-compose exec prosody prosodyctl --config /config/prosody.cfg.lua register $USER meet.jitsi $PASSWORD
 
