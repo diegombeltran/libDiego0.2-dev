@@ -5,14 +5,15 @@ title: "El autor y el blog"
 ---
 
 ## Sobre el autor
-Mi nombre es **Diego** y soy _DevOps Engineer_ en **BBVA Next Technologies**. Mis áreas de interés son:
+Mi nombre es **Diego** y soy _Cloud Engineer_ en **BBVA Next Technologies**. Mis áreas de interés son:
 
 * Automatización
-* Cultura DevOps
+* Cultura _DevOps_
 * Redes y sistemas
+* Arquitecturas en la nube
 * Ciberseguridad y privacidad
 * Software libre y código abierto
-* Arquitecturas en la nube
+* _Site Reliability Engineering - SRE_
 
 ## Sobre el blog
 Es un experimento creado hace un tiempo. Un intento de separar en otro blog la temática técnica del resto de desvaríos que escribo (Accesibles *[aquí](https://blog.diegomunozbeltran.com)*).
