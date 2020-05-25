@@ -16,9 +16,7 @@ Por curiosidad y referencia, esta es la arquitectura mediante componentes separa
 En esta ocasión nada de Kubernetes ni despliegues más avanzados para producción... Servirá una instancia normal con Docker.
 Cualquier proveedor cloud vale (incluso en un servidor _bare metal_, aunque si lo montas de forma casera en tu red tendrás que gestionar temas de NAT).
 
-En mi caso voy a usar _Digital Ocean_ por sencillez, precio y disponibilidad de API. No es mi intención hacer publicidad, pero ya que tengo servicios alojados con ellos y tienen un programa de _referrals_, puedes pinchar [aquí](https://m.do.co/c/6fcb1190896e) para ganar $100 en tiempo de uso de sus servicios y a mí me darán $25. ¡Menos es nada!
-
-Tienen (al igual que casi todos los proveedores), un _marketplace_ con imagenes creadas y mantenidas. Servirá cualquier distribución de Linux, siempre que podamos instalar Docker y docker-compose.
+En mi caso voy a usar [Digital Ocean](https://m.do.co/c/6fcb1190896e) por sencillez, precio y disponibilidad de API. Tienen (al igual que casi todos los proveedores), un _marketplace_ con imagenes creadas y mantenidas. Servirá cualquier distribución de Linux, siempre que podamos instalar Docker y docker-compose.
 
 Por sencillez he utilizado una imagen de Ubuntu con Docker, docker-compose y git instalados (Ubuntu Docker 5:19.03.1~3 on 18.04). Es más que conveniente crear un usuario exclusivo para ejecutar los contenedores, diferente de root y con permisos más restringidos.
 
