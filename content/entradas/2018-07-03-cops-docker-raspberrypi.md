@@ -1,7 +1,8 @@
 ---
-comments: true
-date: "2018-07-03T15:12:00Z"
 title: "COPS en Raspberry Pi con Docker"
+description: "Cómo montar un servidor de Calibre ODPS en una Raspberry Pi, con un contenedor de Docker"
+date: "2018-07-03T15:12:00Z"
+tags: ["raspberry", "pi", "cops", "docker", "calibre"]
 ---
 
 En mi caso, aparte de una apabullante colección de videojuegos en Steam, una de mis lindezas es la colección de eBooks, o libros en formato digital.

@@ -1,0 +1,12 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<h1>404: Página no encontrada</h1>
+<p class="lead">Esta dirección parece no existir.</p>
+<p><a href="{{ .Site.BaseURL }}">Volver al inicio</a></p>
+{{ end }}
+
+{{ define "footer" }}
+{{ end }}

@@ -1,7 +1,7 @@
 ## Basic Configuration
 baseurl = "https://dev.diegomunozbeltran.com/"
-title = "libDiego0.3-dev"
-languageCode = "es-es"
+title = "libDiego0.2-dev"
+languageCode = "es"
 DefaultContentLanguage = "es"
 
 theme = "hyde-hyde"
@@ -15,32 +15,32 @@ theme = "hyde-hyde"
 ## Site Settings
 [params]
   author = "Diego Muñoz Beltrán"
-  description = "DevOps, Linux, Cloud"
+  description = "DevOps Engineer"
   authorimage = "/images/diegombeltran.jpg"
   dateformat = "2 Jan 2006"
   highlightjs = true
-  themeColor = "theme-base-0g"
-  mainSections = ["posts"]
   relatedPosts = true
 
-  ## Social Accounts
+  ## Social
   [params.social]
     gitlab = "diegombeltran"
     github = "diegombeltran"
     linkedin = "diegomunozbeltran"
-    #stackoverflow = "diegombeltran"
-    lichess = "diegombeltran"
-    email = "yo(at)diegomunozbeltran(dot)com"
-    gpg = "diegoPublicKey.asc"
+    email = "https://www.diegomunozbeltran.com/es/email"
 
 ## Main Menu
 [[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
+    name = "Autor"
+    identifier = "autor"
     weight = 100
-    url = "/faq/"
+    url = "/autor/"
 [[menu.main]]
     name = "Entradas"
     weight = 200
-    identifier = "posts"
-    url = "/post/"
+    identifier = "entradas"
+    url = "/entradas/"
+[[menu.main]]
+    name = "Clave GPG"
+    weight = 300
+    identifier = "gpg"
+    url = "https://www.diegomunozbeltran.com/diegoPublicKey.asc"

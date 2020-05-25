@@ -2,6 +2,7 @@
 comments: true
 date: "2016-04-10T00:00:00Z"
 title: "SSL de Let's Encrypt con aplicación Tomcat y Apache"
+expirydate: "2019-04-10T00:00:00Z"
 ---
 
 El otro día tocó poner en producción una aplicación servida mediante un servidor Tomcat. Para no andar repartiendo a todo Dios un enlace del tipo http://aplicacion:8080, decidí instalar en la misma máquina un servidor web Apache en medio haciendo de *reverse proxy*. El servidor Apache, mediante [mod_proxy](http://httpd.apache.org/docs/2.4/es/mod/mod_proxy.html), redirecciona adecuadamente las direcciones que el usuario introduce a las internas de la aplicación, y nos permite gestionar el tráfico externo a la máquina en el firewall para escuchar únicamente en el puerto 80 y 443. Además, hace que la configuración de un certificado SSL de [Let's Encrypt](https://letsencrypt.org/) que tan recomendable es y tan de moda está, sea trivial. Al final el archivo de configuración en la carpeta *sites-enabled* (O la que uses para los sitios activos) quedaría tal que así:

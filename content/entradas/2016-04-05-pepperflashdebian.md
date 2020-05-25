@@ -2,6 +2,7 @@
 comments: true
 date: "2016-04-05T00:00:00Z"
 title: pepperflashplugin-nonfree en Debian Stretch
+expirydate: "2019-06-04T10:00:00Z"
 ---
 
 Aunque Flash es una auténtica porquería que debería desaparecer de una vez, algunos servicios web necesarios obligan a utilizarlo. ¿Cuáles? Unos cuantos, pero por poner un ejemplo crítico, el puñetero cliente web de VMWare vSphere. Para la versión 6 [por lo visto](https://www.josemariagonzalez.es/2016/04/04/vsphere-html5-web-client-un-paso-al-futuro.html) lo migrarán a HTML5, con su propia *appliance* y tal, pero eso es otra historia que dejaré para otro día porque también me toca mucho los huevos.

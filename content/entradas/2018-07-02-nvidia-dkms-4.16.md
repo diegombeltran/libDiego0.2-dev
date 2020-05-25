@@ -2,6 +2,7 @@
 comments: true
 date: "2018-07-01T10:00:00Z"
 title: "NVIDIA 390.48 + Kernel 4.16 + Debian Testing"
+expirydate: "2019-07-01T10:00:00Z"
 ---
 
 El otro día encendí la máquina, y a los pocos segundos, en vez de encontrarme la pantalla de login de _lightdm_, obtuve un oscuro y negro fondo de pantalla. Tras un par de reinicios, la cosa seguía igual, por lo que tenía pinta de que algo había cambiado.

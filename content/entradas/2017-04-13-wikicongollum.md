@@ -1,9 +1,9 @@
 ---
-comments: true
+title: "Wiki personal con Gollum"
+description: "Cómo montar una wiki para uso privado usando Gollum Wiki"
 date: "2017-04-13T10:00:00Z"
 lastmod: "2018-06-18T10:00:00Z"
 tags: ["gollum", "wiki", "ruby"]
-title: "Wiki personal con Gollum"
 ---
 
 #### Contenido

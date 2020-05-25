@@ -1,7 +1,8 @@
 ---
-comments: true
+title: "Ficción Interactiva en Android"
+description: "Toda la frikeza de Frotz y Glulxe en tu smartphone de la década de 2010"
 date: "2015-12-31T10:00:00Z"
-title: Ficción Interactiva en Android
+tags: ["fiction", "frotz", "glulxe", "gargoyle"]
 ---
 
 El otro día estaba *bucólico* en un sofá por unos cuantos días, y sin motivo alguno me vino a la mente la aventura conversacional o de texto (o como le gusta llamarlo a algunos, *ficción interactiva*) [**Zork**](https://es.wikipedia.org/wiki/Zork).
